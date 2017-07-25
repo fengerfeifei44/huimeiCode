@@ -1,0 +1,252 @@
+/* 初始化开始*/
+*{margin:0; padding:0; border:none;box-sizing:border-box;}
+body{background-color:#fff;color:#666;font:.26rem/.4rem "Microsoft YaHei";}
+em,i,b{font-weight: normal;font-style: normal;}
+a{text-decoration:none; color:#969696;}
+a:hover{ text-decoration:none;}
+li{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%;font-weight: normal;}
+.clear:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clear{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+/*input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color:#ff806b;}
+input:-moz-placeholder, textarea:-moz-placeholder {color: #ff806b;}
+input::-moz-placeholder, textarea::-moz-placeholder {color: #ff806b;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #ff806b;}*/
+/* 初始化结束 */
+.head_portrait{
+    padding-top: 20px;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    background: url("../images/bg_main.jpg") no-repeat;
+    background-size: cover;
+}
+.head_portrait>img{
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    margin-top: 10px;
+    width: 64px;
+    height: 64px;
+    -webkit-animation:bounceIn 1s 0.5s linear both;
+    animation:bounceIn 1s 0.5s linear both;
+}
+.head_portrait>h2{
+
+    -webkit-animation:zoomIn 1s  linear both;
+    animation:zoomIn 1s  linear both;
+}
+.head_portrait>h2>img{
+    width: 180px;
+
+}
+.head_portrait>p:nth-of-type(1){
+    margin-top: 10px;
+    padding: 0 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+    -webkit-animation:bounceIn 1s 0.5s linear both;
+    animation:bounceIn 1s 0.5s linear both;
+}
+.head_portrait>p:nth-of-type(2){
+    margin-top: 15px;
+    font-size: 12px;
+    color: #fff;
+    -webkit-animation:fadeIn 1s 1s  linear both;
+    animation:fadeIn 1s 1s linear both;
+}
+input{
+    outline: none;
+}
+body{
+    background: #f8f8f8;
+}
+.title{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url("../images/bg_main.jpg") no-repeat;
+    background-size: cover;
+}
+h1{
+   position: relative;
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+h1>span{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 13px;
+
+}
+h1>span>img{
+    padding-right: 5px;
+    width: 12px;
+    vertical-align: middle;
+}
+.content{
+    margin-top:60px;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+
+}
+.marginTop0{
+    margin-top: 0;
+}
+.content .per_information {
+    border-top: 1px solid #ececec;
+}
+.content  li{
+    padding: 0 15px;
+    border-bottom: 1px solid #ececec;
+    width: 100%;
+    line-height: 40px;
+    background: #fff;
+    overflow: hidden;/*超出部分隐藏*/
+    white-space: nowrap;/*不换行*/
+    text-overflow:ellipsis;/*超出部分文字以...显示*/
+}
+.content .per_information li.no_bg{
+    background: none;
+}
+.content .per_information li label{
+
+}
+.content  li input{
+    float: right;
+    text-align: right;
+    line-height: 40px;
+}
+.content  li.left input{
+    float: left;
+    text-align: left;
+}
+.content .per_information li span{
+    margin-left: 5px;
+    float: right;
+}
+
+.blue{
+    padding: 0 15px;
+    line-height: 40px;
+    color: #1a93d3;
+}
+
+.major_surgery>ol{
+    border-top: 1px solid #ececec;
+}
+.major_surgery>ol.margin{
+    margin-top: 5px;
+}
+.wrap{
+    margin: 0 15px;
+
+}
+.wrap textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    width: 100%;
+    height: 80px;
+    overflow: auto;
+}
+.btn{
+    margin: 20px 20px 0 20px;
+}
+.btn a{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background: url("../images/bg_main.jpg") no-repeat;
+    background-size: cover;
+}
+/*two*/
+.major_surgery .add{
+    margin-top: 10px;
+    text-align: right;
+ padding: 0 15px;
+}
+.major_surgery .add>img{
+    width: 24px;
+}
+/*three*/
+.content .screening p{
+    white-space: pre-wrap;
+}
+.content .screening>p>span{
+    color: #666;
+    font-size: 13px;
+}
+.content .screening li{
+    margin-bottom: 10px;
+    border-top: 1px solid #ececec;
+}
+.content .screening li p{
+    color: #666;
+    font-size: 13px;
+}
+.content .screening .top{
+    border-bottom: 1px dotted #ececec;
+}
+.blue_color{
+    font-size: 14px;
+    font-style: normal;
+    margin-right: 5px;
+    color:#1a93d3;
+}
+/*welcome*/
+body,html{
+    height: 100%;
+}
+.welcome{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg_main.jpg") no-repeat;
+    background-size: cover;
+}
+.welcome .health{
+    margin-top: 80px;
+    width: 180px;
+    -webkit-animation:zoomIn 1s  linear both;
+    animation:zoomIn 1s  linear both;
+}
+.welcome .phone{
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-top: 30px;
+    width: 98px;
+    height: 98px;
+    -webkit-animation:zoomIn 1s  linear both;
+    animation:zoomIn 1s  linear both;
+}
+.welcome .nickname{
+    margin-top: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+    -webkit-animation:zoomIn 1s  linear both;
+    animation:zoomIn 1s  linear both;
+}
+.welcome .come{
+    margin-top: 30px;
+    width: 210px;
+    -webkit-animation:bounceIn 5s 0.5s ease both;
+    animation:bounceIn 5s 0.5s ease both;
+}
